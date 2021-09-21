@@ -10,15 +10,17 @@
 </head>
 <body>
   <div class="wrapper">
-     <section class="main services">
+     <section class="main services lock-padding">
       <div class="logo">
         <a href="index.html"><img src="./img/logo_up.png" alt="Logo"></a>
       </div>
       <h2 class="title">Услуги</h2>
       <div class="services__content">
         <div class="setvices__block">
-          <img class="services__img" src="./img/web.svg" alt="icon">
-          <p class="text services__text">Дизайн и Верстка</p>
+          <a href="#popup" class="header__phone popup-link">
+            <img class="services__img" src="./img/web.svg" alt="icon">
+            <p class="text services__text">Дизайн и Верстка</p>
+          </a>
         </div>
         <div class="setvices__block">
           <img class="services__img" src="./img/design.svg" alt="icon">
@@ -40,6 +42,24 @@
         <a href="https://www.instagram.com/svetov_maxim/"><div class="fab fa-instagram social-icon"></div></a>
       </div>
      </section>
+     <div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#header" class="popup__close close-popup">
+            <div class="cross"></div>
+          </a>
+					<div class="popup__title">Cоздание сайта</div>
+					<div class="popup__text">
+						В создание сайта входит: дизайн, верстка, загрузка на хост, если нужно.
+            Когда Вы решитесь приобрести данную услугу, советаю <a href="https://drive.google.com/file/d/1ofcxmy3Ll2YD2o9gQ3LbY-RK8CAVBkGn/view?usp=sharing" download="117_voprosov_k_zakazchiku" title="Нажмите для скачки">
+            скачать этот файл</a>
+            Там Вы увидете вопросы, которые я буду задавать Вам для составления Технического Задания (ТЗ)
+            
+					</div>
+				</div>
+			</div>
+		</div>
   </div>
+  <script src="./js/all.js"></script>
 </body>
 </html>
